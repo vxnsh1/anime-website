@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(images/bg-texture.png);
+        }
+    </style>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Anime Website</title>
+</head>
+<body>
+    <!--Navbar-->
+
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>My<span style="color: rebeccapurple;">Anime</span>Favzゞ</h4></a>
+            <ul class="nav__menu">
+                <li class="item"><a href="index.html" class="link">Home</a></li>
+                <li class="item"><a href="about.html" class="link">About</a></li>
+                <li class="item"><a href="favourites.html" class="link">Favourites</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    
+    <!--Header-->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+              <h1>Anime <br><span>( Japanese Animation )</span></h1>
+              <p>Anime is hand-drawn and computer-generated animation originating from Japan. Outside of Japan and in English, anime refers specifically to animation produced in Japan. However, in Japan and in Japanese, anime describes all animated works, regardless of style or origin.</p>
+              <a href="about.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="images/home/rengoku.png" alt="bg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Genres-->
+    
+    <section class="categories">
+        <div class="conatiner categories__container">
+            <div class="categories__left">
+               <h1>Genres</h1>
+               <p>Anime is available in a wide range of genres such as drama, action, supernatural, and horror, to mention a few. They are made for a young girl or young boy as well as adults. They feature tough female characters and handsome male characters.</p>
+               <a href="favourites.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="categories__right">
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-volleyball"></i></span>
+                <h5>Sports</h5>
+                <p>Training for and participating in a sport take priority.</p>
+            </article>
+            
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-brain"></i></span>
+                <h5>Psychological</h5>
+                <p>The story wrapped in certain situation where the characters face problems.</p>
+            </article>
+            
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-atom"></i></span>
+                <h5>Sci-Fi</h5>
+                <p>Technological advancements which are currently unreal in the present. </p>
+            </article>
+            
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-desert"></i></span>
+                <h5>Adventure</h5>
+                <p>The characters in the show are on some kind of journey working towards a goal.</p>
+            </article>
+            
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-heart"></i></span>
+                <h5>Slice of Life</h5>
+                <p>Slice-of-life anime is often blended with comedy, romance, and, occasionally, magic</p>
+            </article>
+            
+            <article class="category">
+                <span class="category__icon"><i class="uil uil-ninja"></i></span>
+                <h5>Shonen</h5>
+                <p>Manga aimed at an primary target audience upto 18 years old.</p>
+            </article>
+        
+            </div>
+        </div>
+    </section>
+
+    <!--Big 3 Anime-->
+    
+    <section class="courses">
+        <h2>Big 3 Anime</h2>
+        <div class="container courses__container">
+          <article class="course">
+            <div class="courses__image">
+                <img src="images/home/onepiece.png" alt="">
+            </div>
+            <div class="course__info">
+                <h4>One Piece</h4>
+            <p>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 104</p>
+            <a href="favourites.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </article>
+          
+          <article class="course">
+            <div class="courses__image">
+                <img src="images/home/naruto.jpg" alt="">
+            </div>
+            <div class="course__info">
+                <h4>Naruto</h4>
+            <p>Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage.</p>
+            <a href="favourites.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </article>
+          
+          <article class="course">
+            <div class="courses__image">
+                <img src="images/home/bleach.jpg" alt="">
+            </div>
+            <div class="course__info">
+                <h4>Bleach</h4>
+            <p>Bleach is a Japanese anime television series based on Tite Kubo's original manga series of the same name. It was produced by Studio Pierrot .Ichigo Kurosaki never asked for the ability to see ghosts - he was born with the gift.</p>
+            <a href="favourites.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </article>
+        </div>
+    </section>
+
+    <!--Quotes-->
+
+    <section class="container testimonials__container swiper mySwiper">
+        <h2>゜Some Anime Quotes  ゜</h2>
+        <div class="swiper-wrapper">
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/home/luffy.jpg" alt="1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Luffy</h5>
+                    <small>One Piece</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>“If you don’t take risks, you can’t create a future.”</p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/home/itachi.jpg" alt="1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Itachi</h5>
+                    <small>Naruto</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>“Growth occurs when one goes beyond one’s limits”</p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/home/saitama.jpg" alt="1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Saitama</h5>
+                    <small>One Punch Man</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>“I’ll leave tomorrow’s problems to tomorrow’s me”</p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/home/kira.png" alt="1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Kira</h5>
+                    <small>Death Note</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>“I can't develop feelings. That's how idiots screw up”</p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/home/vegeta.jpg" alt="1">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Vegeta</h5>
+                    <small>DBZ</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>“Push through the pain, giving up hurts more”</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="row">   
+                <div class="footer-col">
+                    <h4><a href="#" class="gotopbtn">MyAnimeFavz</a></h4>
+                    <p>“When you give up, that’s when the game ends.”</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Permalinks</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="favourites.html">Favourites</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Watch Here</h4>
+                    <ul>
+                        <li><a href="https://animixplay.to">Animxplay</a></li>
+                        <li><a href="https://zoro.to">Zoro.to</a></li>
+                        <li><a href="https://ww3.gogoanime2.org">Gogoanime</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr class="divider">
+            <p>Copyright &copy;2022 - Made by Vansh <span>Chouhan</span></p>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "2",
+        spaceBetween: 15,
+      });
+</script>
+
+</body>
+</html>

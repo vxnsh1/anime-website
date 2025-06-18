@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Anime Website</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+       <div class="content">
+        <div class="textbox">
+            <h2>It's not just Anime <br>It's<span> Escape</span></h2>
+            <p>This website contains some information about anime, like genres, famous animes, main characters and much more. It is made using Html - Css - Javascript. <br>
+                Made by - Vansh Chouhan XII A
+            </p>
+            <a href="index.html" class="btn">Enter Website</a>
+        </div>
+        <div class="imgBox">
+            <img src="images/img1.png" class="anime">
+        </div>
+       </div>
+       <ul class="thumb">
+        <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png');changeCircleColor('#017143')"></li>
+        <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png');changeCircleColor('#fe9411')"></li>
+        <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#2f2f35')"></li>
+       </ul>
+       <ul class="sci">
+        <li><a href="#"><img src="images/facebook.png"></a></li>
+        <li><a href="#"><img src="images/instagram.png"></a></li>
+        <li><a href="#"><img src="images/twitter.png"></a></li>
+       </ul>
+    </section>
+
+
+<script type="text/javascript">
+    function imgSlider(anything){
+  document.querySelector('.anime').src = anything;
+ }
+
+ function changeCircleColor(color){
+    const circle = document.querySelector('.circle');
+    circle.style.background = color;
+ }
+</script>
+</body>
+</html>
