@@ -35,8 +35,4 @@ While it’s not responsive (yet), it’s a tribute to what made many of us fall
 
 This project is preserved as-is to show where I started. Improvements may come later as I upgrade my skills.
 
----
-
-# ✨ Check out the site here: 
-
 
